@@ -14,19 +14,21 @@
   <p>
     <h1>Holy Scripture Generator</h1>
     <p>
-      This is a text generator using a charRNN model trained on Christian (25%), Islamic (5%), Hindu (19%), and Buddhist (51%) scriptures. <a href="https://ellennickles.site/blog/2018/12/12/week-14-generating-holy-scripture">Learn more</a> about the source materials and process.
+      This is a text generator using a charRNN model trained on Christian (25%), Islamic (5%), Hindu (19%), and Buddhist
+      (51%) scriptures. <a href="https://ellennickles.site/blog/2018/12/12/week-14-generating-holy-scripture">Learn
+        more</a> about the source materials and process.
     </p>
     <textarea id="result"></textarea>
-    <input id="textInput" value="In the beginning " type="text"/>
+    <input id="textInput" value="In the beginning " type="text" />
     <button id="generate">Generate</button>
     <button id="reset">Reset</button>
     <br><br>
-    Variance
+    Temperature
     <input id="tempSlider" type="range" min="0" max="1" step="0.01"><span id="temperature">0.5</span>
     <br><br>
     Model Status:
     <span id="status">Loading</span>
-  <script src="sketch.js"></script>
+    <script src="sketch.js"></script>
 </body>
 
 </html>
